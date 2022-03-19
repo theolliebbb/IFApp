@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.1" />
+    <PackageReference Include="Xamarin.Plugin.SharedTransitions" Version="2.4.0" />
+    <PackageReference Include="XamEffects" Version="1.6.3" />
+    <PackageReference Include="Xamanimation" Version="1.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Services\" />
+    <None Remove="steelfish rg.otf" />
+    <None Remove="raj.ttf" />
+    <None Remove="Xamarin.Plugin.SharedTransitions" />
+    <None Remove="XamEffects" />
+    <None Remove="Xamanimation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="steelfish.otf" />
+    <EmbeddedResource Include="raj.ttf" />
+  </ItemGroup>
+</Project>

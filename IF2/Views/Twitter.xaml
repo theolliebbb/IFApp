@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IF2.Views.Twitter"
+             xmlns:xamanimation="clr-namespace:Xamanimation;assembly=Xamanimation"
+             Title="Twitter">
+    <StackLayout Margin="20">
+        <StackLayout Orientation="Horizontal">
+            <StackLayout.Behaviors>
+	 <xamanimation:EntranceTransition
+	      Duration="2000"/>
+	 </StackLayout.Behaviors>
+            <Label x:Name="labelLoading" BackgroundColor="Black" Text="ちょっと待って！" IsVisible="false" />
+            <Button Text="Back" HorizontalOptions="StartAndExpand" Clicked="OnBackButtonClicked" />
+            <Button Text="Forward" HorizontalOptions="EndAndExpand" Clicked="OnForwardButtonClicked" />
+        </StackLayout>
+        <WebView x:Name="webView" WidthRequest="1000" HeightRequest="1000" />
+    </StackLayout>
+</ContentPage>

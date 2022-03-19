@@ -1,0 +1,92 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/mscorlib.dll
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_managed_ref
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_set_gchandle_with_flags_safe
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_exception
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_exception
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/mtouch-cache/1-Link/System.dll
+Function=mono_pmip
+Function=xamarin_dyn_objc_msgSend
+Function=xamarin_dyn_objc_msgSendSuper
+Function=xamarin_dyn_objc_msgSend_stret
+Function=xamarin_dyn_objc_msgSendSuper_stret

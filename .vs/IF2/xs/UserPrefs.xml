@@ -1,0 +1,53 @@
+﻿<Properties StartupConfiguration="{0251E222-D19E-4267-B7C1-E3550274D1AD}|Default">
+  <MonoDevelop.Ide.ItemProperties.IF2.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="IF2/Views/Twitter.xaml">
+    <Files>
+      <File FileName="IF2/Views/LivePage.xaml.cs" Line="11" Column="1" />
+      <File FileName="IF2/App.xaml" Line="1" Column="1" />
+      <File FileName="IF2/Views/LivePage.xaml" Line="38" Column="52" />
+      <File FileName="IF2/Views/Ami.xaml" Line="17" Column="19" />
+      <File FileName="IF2/Views/Bad.xaml" Line="17" Column="19" />
+      <File FileName="IF2/Views/Kai.xaml" Line="17" Column="19" />
+      <File FileName="IF2/Views/Live1.xaml" Line="18" Column="19" />
+      <File FileName="IF2/Views/Phantom.xaml" Line="17" Column="19" />
+      <File FileName="IF2/Views/Twitter.xaml" Line="13" Column="66" />
+      <File FileName="IF2/Views/Twitter.xaml.cs" Line="35" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IF2" expanded="True">
+            <Node name="IF2" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True">
+                  <Node name="Xamarin.Plugin.SharedTransitions" expanded="True" />
+                  <Node name="XamEffects" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="LivePage.xaml" expanded="True" />
+                <Node name="Twitter.xaml" expanded="True" selected="True" />
+              </Node>
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+            <Node name="IF2.Android" expanded="True">
+              <Node name="Assets" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="IF2.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.IF2.Android AndroidDesignerPreferredTheme="MainTheme" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

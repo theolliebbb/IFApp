@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="IF2.Views.Kai"
+    xmlns:xamanimation="clr-namespace:Xamanimation;assembly=Xamanimation"
+    xmlns:xe="clr-namespace:XamEffects;assembly=XamEffects"
+    BackgroundColor="Black">
+    <ContentPage.Content>
+        
+        <Grid  RowDefinitions="*, *, *, *, *, *, *, *, *"
+              ColumnDefinitions="*, *, *"
+              Background="ai.jpg"
+              >
+                              <Grid.Behaviors>
+	 <xamanimation:EntranceTransition
+	      Duration="1000"/>
+	 </Grid.Behaviors>
+      
+        <Button
+            Clicked="Website_Clicked"
+            ClassId="https://t.livepocket.jp/e/7r9yy"
+            Grid.Row="8"
+            Grid.Column="0"
+            Text="チケット"
+            BackgroundColor="SlateGray"
+            />
+        <Button
+            Clicked="Map_Clicked"
+            Grid.Row="8"
+            Grid.Column="1"
+            Text="地図"
+            BackgroundColor="SlateGray"
+            />
+        <Button
+            Clicked="Website_Clicked"
+            ClassId="http://cyclone1997.com"
+            Grid.Row="8"
+            Grid.Column="2"
+            Text="ウェブサイト"
+            BackgroundColor="SlateGray"
+            />
+             <Image  HorizontalOptions="Center" VerticalOptions="Center" Source="ai.jpg" Grid.Row="0" Grid.Column="0" Grid.RowSpan="7" Grid.ColumnSpan="3"/>
+
+  </Grid>  
+    </ContentPage.Content>
+</ContentPage>
