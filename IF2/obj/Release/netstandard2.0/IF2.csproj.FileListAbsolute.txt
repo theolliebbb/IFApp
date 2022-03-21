@@ -20,3 +20,8 @@
 /Users/oll/Projects/IF2/IF2/obj/Release/netstandard2.0/ref/IF2.dll
 /Users/oll/Projects/IF2/IF2/obj/Release/netstandard2.0/IF2.pdb
 /Users/oll/Projects/IF2/IF2/obj/Release/netstandard2.0/Views/Twitter.xaml.g.cs
+/Users/oll/Projects/IF2/IF2/obj/Release/netstandard2.0/Views/d924.xaml.g.cs
+/Users/oll/Projects/IF2/IF2/obj/Release/netstandard2.0/Views/h618.xaml.g.cs
+/Users/oll/Projects/IF2/IF2/obj/Release/netstandard2.0/Views/p515.xaml.g.cs
+/Users/oll/Projects/IF2/IF2/obj/Release/netstandard2.0/Views/s611.xaml.g.cs
+/Users/oll/Projects/IF2/IF2/obj/Release/netstandard2.0/Views/y618.xaml.g.cs

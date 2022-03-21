@@ -1,0 +1,79 @@
+MonoTouch: Could not install sigaction override, unexpected sigaction implementation.
+2022-03-21 12:24:11.130008+0900 IF2.iOS[16897:621440] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=16897
+2022-03-21 12:24:11.130582+0900 IF2.iOS[16897:621440] SecTaskCopyDebugDescription: IF2.iOS[16897]/0#-1 LF=0
+2022-03-21 12:24:11.139017+0900 IF2.iOS[16897:621440] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=16897
+2022-03-21 12:24:11.139298+0900 IF2.iOS[16897:621440] SecTaskCopyDebugDescription: IF2.iOS[16897]/0#-1 LF=0
+2022-03-21 12:24:11.438334+0900 IF2.iOS[16897:621440] screen parameters are unexpected: MGScreenClass1125x2436x3x495 SCREEN_TYPE(1125,2436,3,495)
+2022-03-21 12:24:11.508121+0900 IF2.iOS[16897:621440] screen parameters are unexpected: MGScreenClass1125x2436x3x495 SCREEN_TYPE(1125,2436,3,495)
+2022-03-21 12:24:11.508394+0900 IF2.iOS[16897:621440] screen parameters are unexpected: MGScreenClass1125x2436x3x495 SCREEN_TYPE(1125,2436,3,495)
+2022-03-21 12:24:11.508626+0900 IF2.iOS[16897:621440] screen parameters are unexpected: MGScreenClass1125x2436x3x495 SCREEN_TYPE(1125,2436,3,495)
+2022-03-21 12:24:11.508889+0900 IF2.iOS[16897:621440] screen parameters are unexpected: MGScreenClass1125x2436x3x495 SCREEN_TYPE(1125,2436,3,495)
+2022-03-21 12:24:11.509153+0900 IF2.iOS[16897:621440] screen parameters are unexpected: MGScreenClass1125x2436x3x495 SCREEN_TYPE(1125,2436,3,495)
+2022-03-21 12:24:11.509436+0900 IF2.iOS[16897:621440] screen parameters are unexpected: MGScreenClass1125x2436x3x495 SCREEN_TYPE(1125,2436,3,495)
+2022-03-21 12:24:11.538795+0900 IF2.iOS[16897:621440] [TableView] Warning once only: UITableView was told to layout its visible cells and other contents without being in the view hierarchy (the table view or one of its superviews has not been added to a window). This may cause bugs by forcing views inside the table view to load and perform layout without accurate information (e.g. table view bounds, trait collection, layout margins, safe area insets, etc), and will also cause unnecessary performance overhead due to extra layout passes. Make a symbolic breakpoint at UITableViewAlertForLayoutOutsideViewHierarchy to catch this in the debugger and see what caused this to occur, so you can avoid this action altogether if possible, or defer it until the table view has been added to a window. Table view: <_UIMoreListTableView: 0x7fcedb2e8e00; frame = (0 0; 0 0); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x60000040ee20>; layer = <CALayer: 0x600000b84d20>; contentOffset: {0, 0}; contentSize: {0, 0}; adjustedContentInset: {0, 0, 0, 0}; dataSource: <UIMoreListController: 0x7fced6f35de0>>
+2022-03-21 12:24:11.716324+0900 IF2.iOS[16897:621440] 
+Unhandled Exception:
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NotSupportedException: Don't know about Xamarin.Forms.View
+  at SQLite.Orm.SqlType (SQLite.TableMapping+Column p, System.Boolean storeDateTimeAsTicks, System.Boolean storeTimeSpanAsTicks) [0x00218] in <01c96d411fe34bd5940c99a56515582b>:0 
+  at SQLite.Orm.SqlDecl (SQLite.TableMapping+Column p, System.Boolean storeDateTimeAsTicks, System.Boolean storeTimeSpanAsTicks) [0x00016] in <01c96d411fe34bd5940c99a56515582b>:0 
+  at SQLite.SQLiteConnection.<CreateTable>b__70_0 (SQLite.TableMapping+Column p) [0x0000d] in <01c96d411fe34bd5940c99a56515582b>:0 
+  at System.Linq.Enumerable+SelectArrayIterator`2[TSource,TResult].ToArray () [0x00012] in <9d46a19d06ea46f581363b717dc04ed7>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] ) [0x0001f] in <9d46a19d06ea46f581363b717dc04ed7>:0 
+  at SQLite.SQLiteConnection.CreateTable (System.Type ty, SQLite.CreateFlags createFlags) [0x000e0] in <01c96d411fe34bd5940c99a56515582b>:0 
+  at SQLite.SQLiteConnection.CreateTable[T] (SQLite.CreateFlags createFlags) [0x00000] in <01c96d411fe34bd5940c99a56515582b>:0 
+  at IF2.Services.LiveService.Init () [0x00024] in <acd56a2b8bba42dcb8b99f7535e8152d>:0 
+  at IF2.Services.LiveService.AddLive (System.String name, System.String date) [0x00000] in <acd56a2b8bba42dcb8b99f7535e8152d>:0 
+  at IF2.Views.LivePage..ctor () [0x0000c] in <acd56a2b8bba42dcb8b99f7535e8152d>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object , System.Object[] , System.Boolean ) [0x00005] in <34107616151548569c9b81c9b0f24a36>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object , System.Object[] , System.Boolean ) [0x0001d] in <34107616151548569c9b81c9b0f24a36>:0 
+  at System.RuntimeType.CreateInstanceMono (System.Boolean , System.Boolean ) [0x00095] in <34107616151548569c9b81c9b0f24a36>:0 
+  at System.RuntimeType.CreateInstanceSlow (System.Boolean , System.Boolean , System.Boolean , System.Boolean ) [0x00009] in <34107616151548569c9b81c9b0f24a36>:0 
+  at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean , System.Boolean , System.Boolean , System.Boolean , System.Threading.StackCrawlMark& ) [0x00027] in <34107616151548569c9b81c9b0f24a36>:0 
+  at System.Activator.CreateInstance (System.Type , System.Boolean , System.Boolean ) [0x00020] in <34107616151548569c9b81c9b0f24a36>:0 
+  at System.Activator.CreateInstance (System.Type , System.Boolean ) [0x00000] in <34107616151548569c9b81c9b0f24a36>:0 
+  at System.Activator.CreateInstance (System.Type ) [0x00000] in <34107616151548569c9b81c9b0f24a36>:0 
+  at Xamarin.Forms.ElementTemplate+<>c__DisplayClass4_0.<.ctor>b__0 () [0x00000] in <978ec34c5c9c4c4eb3d73b6da958bcd6>:0 
+  at Xamarin.Forms.ElementTemplate.CreateContent () [0x0002c] in <978ec34c5c9c4c4eb3d73b6da958bcd6>:0 
+  at Xamarin.Forms.Internals.DataTemplateExtensions.CreateContent (Xamarin.Forms.DataTemplate self, System.Object item, Xamarin.Forms.BindableObject container) [0x00008] in <978ec34c5c9c4c4eb3d73b6da958bcd6>:0 
+  at Xamarin.Forms.ShellContent.Xamarin.Forms.IShellContentController.GetOrCreateContent () [0x0002e] in <978ec34c5c9c4c4eb3d73b6da958bcd6>:0 
+  at Xamarin.Forms.Platform.iOS.ShellSectionRootRenderer.LoadRenderers () [0x0001f] in <c931dad88b3a4eb1a8b9d018a5818b8c>:0 
+  at Xamarin.Forms.Platform.iOS.ShellSectionRootRenderer.ViewDidLoad () [0x00077] in <c931dad88b3a4eb1a8b9d018a5818b8c>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at (wrapper managed-to-native) UIKit.UIApplication.UIApplicationMain(int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] , System.String , System.String ) [0x00019] in <fcda640e026f4864b2a4260e052b2f9c>:0 
+  at IF2.iOS.Application.Main (System.String[] args) [0x00000] in <4ff1418432ee4cae89ffb84597067010>:0
+2022-03-21 12:24:11.717955+0900 IF2.iOS[16897:621440] Unhandled managed exception: Exception has been thrown by the target of an invocation. (System.Reflection.TargetInvocationException)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object , System.Object[] , System.Boolean ) [0x0001d] in <34107616151548569c9b81c9b0f24a36>:0 
+  at System.RuntimeType.CreateInstanceMono (System.Boolean , System.Boolean ) [0x00095] in <34107616151548569c9b81c9b0f24a36>:0 
+  at System.RuntimeType.CreateInstanceSlow (System.Boolean , System.Boolean , System.Boolean , System.Boolean ) [0x00009] in <34107616151548569c9b81c9b0f24a36>:0 
+  at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean , System.Boolean , System.Boolean , System.Boolean , System.Threading.StackCrawlMark& ) [0x00027] in <34107616151548569c9b81c9b0f24a36>:0 
+  at System.Activator.CreateInstance (System.Type , System.Boolean , System.Boolean ) [0x00020] in <34107616151548569c9b81c9b0f24a36>:0 
+  at System.Activator.CreateInstance (System.Type , System.Boolean ) [0x00000] in <34107616151548569c9b81c9b0f24a36>:0 
+  at System.Activator.CreateInstance (System.Type ) [0x00000] in <34107616151548569c9b81c9b0f24a36>:0 
+  at Xamarin.Forms.ElementTemplate+<>c__DisplayClass4_0.<.ctor>b__0 () [0x00000] in <978ec34c5c9c4c4eb3d73b6da958bcd6>:0 
+  at Xamarin.Forms.ElementTemplate.CreateContent () [0x0002c] in <978ec34c5c9c4c4eb3d73b6da958bcd6>:0 
+  at Xamarin.Forms.Internals.DataTemplateExtensions.CreateContent (Xamarin.Forms.DataTemplate self, System.Object item, Xamarin.Forms.BindableObject container) [0x00008] in <978ec34c5c9c4c4eb3d73b6da958bcd6>:0 
+  at Xamarin.Forms.ShellContent.Xamarin.Forms.IShellContentController.GetOrCreateContent () [0x0002e] in <978ec34c5c9c4c4eb3d73b6da958bcd6>:0 
+  at Xamarin.Forms.Platform.iOS.ShellSectionRootRenderer.LoadRenderers () [0x0001f] in <c931dad88b3a4eb1a8b9d018a5818b8c>:0 
+  at Xamarin.Forms.Platform.iOS.ShellSectionRootRenderer.ViewDidLoad () [0x00077] in <c931dad88b3a4eb1a8b9d018a5818b8c>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at (wrapper managed-to-native) UIKit.UIApplication.UIApplicationMain(int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] , System.String , System.String ) [0x00019] in <fcda640e026f4864b2a4260e052b2f9c>:0 
+  at IF2.iOS.Application.Main (System.String[] args) [0x00000] in <4ff1418432ee4cae89ffb84597067010>:0 
+Don't know about Xamarin.Forms.View (System.NotSupportedException)
+  at SQLite.Orm.SqlType (SQLite.TableMapping+Column p, System.Boolean storeDateTimeAsTicks, System.Boolean storeTimeSpanAsTicks) [0x00218] in <01c96d411fe34bd5940c99a56515582b>:0 
+  at SQLite.Orm.SqlDecl (SQLite.TableMapping+Column p, System.Boolean storeDateTimeAsTicks, System.Boolean storeTimeSpanAsTicks) [0x00016] in <01c96d411fe34bd5940c99a56515582b>:0 
+  at SQLite.SQLiteConnection.<CreateTable>b__70_0 (SQLite.TableMapping+Column p) [0x0000d] in <01c96d411fe34bd5940c99a56515582b>:0 
+  at System.Linq.Enumerable+SelectArrayIterator`2[TSource,TResult].ToArray () [0x00012] in <9d46a19d06ea46f581363b717dc04ed7>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] ) [0x0001f] in <9d46a19d06ea46f581363b717dc04ed7>:0 
+  at SQLite.SQLiteConnection.CreateTable (System.Type ty, SQLite.CreateFlags createFlags) [0x000e0] in <01c96d411fe34bd5940c99a56515582b>:0 
+  at SQLite.SQLiteConnection.CreateTable[T] (SQLite.CreateFlags createFlags) [0x00000] in <01c96d411fe34bd5940c99a56515582b>:0 
+  at IF2.Services.LiveService.Init () [0x00024] in <acd56a2b8bba42dcb8b99f7535e8152d>:0 
+  at IF2.Services.LiveService.AddLive (System.String name, System.String date) [0x00000] in <acd56a2b8bba42dcb8b99f7535e8152d>:0 
+  at IF2.Views.LivePage..ctor () [0x0000c] in <acd56a2b8bba42dcb8b99f7535e8152d>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object , System.Object[] , System.Boolean ) [0x00005] in <34107616151548569c9b81c9b0f24a36>:0

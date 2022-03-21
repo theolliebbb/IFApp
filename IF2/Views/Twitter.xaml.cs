@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using IF2.ViewModels;
+using IF2.Models;
 using Xamarin.Forms;
 
 namespace IF2.Views

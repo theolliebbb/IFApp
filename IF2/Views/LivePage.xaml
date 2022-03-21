@@ -9,14 +9,25 @@
     BackgroundColor="Black"
     >
     <ContentPage.Content>
-        <StackLayout xe:TouchEffect.Color="Black">
+        <StackLayout xe:TouchEffect.Color="Black" >
+     
+            
             <StackLayout.Behaviors>
                 <xamanimation:EntranceTransition
 	      Duration="500"/>
             </StackLayout.Behaviors>
+                  
             <Image Source="logo.png"
               
                     x:Name="Logo"/>
+             <Label
+                Text="Re:Illusion Paradise Tour"
+                              Margin="20"
+                              TextColor="White"
+                              FontAttributes="Bold"
+                              FontFamily="Raj"
+                              HorizontalTextAlignment="Center"
+                              FontSize="Large"/>
             <ScrollView BackgroundColor="Black">
 
 

@@ -21,4 +21,12 @@ RemoveDynamicRegistrar:false
 /Users/oll/Projects/IF2/IF2.iOS/bin/iPhoneSimulator/Release/IF2.iOS.app:/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/Xamarin.Forms.Xaml.dll
 /Users/oll/Projects/IF2/IF2.iOS/bin/iPhoneSimulator/Release/IF2.iOS.app:/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/Xamarin.Essentials.dll
 /Users/oll/Projects/IF2/IF2.iOS/bin/iPhoneSimulator/Release/IF2.iOS.app:/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/OpenTK-1.0.dll
+/Users/oll/Projects/IF2/IF2.iOS/bin/iPhoneSimulator/Release/IF2.iOS.app:/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/SQLite-net.dll
+/Users/oll/Projects/IF2/IF2.iOS/bin/iPhoneSimulator/Release/IF2.iOS.app:/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/SQLitePCLRaw.core.dll
+/Users/oll/Projects/IF2/IF2.iOS/bin/iPhoneSimulator/Release/IF2.iOS.app:/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.Memory.dll
+/Users/oll/Projects/IF2/IF2.iOS/bin/iPhoneSimulator/Release/IF2.iOS.app:/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/System.Runtime.CompilerServices.Unsafe.dll
+/Users/oll/Projects/IF2/IF2.iOS/bin/iPhoneSimulator/Release/IF2.iOS.app:/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/SQLitePCLRaw.batteries_v2.dll
+/Users/oll/Projects/IF2/IF2.iOS/bin/iPhoneSimulator/Release/IF2.iOS.app:/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/SQLitePCLRaw.nativelibrary.dll
+/Users/oll/Projects/IF2/IF2.iOS/bin/iPhoneSimulator/Release/IF2.iOS.app:/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/Users/oll/Projects/IF2/IF2.iOS/bin/iPhoneSimulator/Release/IF2.iOS.app:/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/Xamanimation.dll
 /Users/oll/Projects/IF2/IF2.iOS/bin/iPhoneSimulator/Release/IF2.iOS.app:/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Release/mtouch-cache/1-Link/XamEffects.dll

@@ -1,0 +1,72 @@
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a abrt while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Native stacktrace:
+=================================================================
+	0x10d9bd775 - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : mono_dump_native_crash_info
+	0x10d9b224e - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : mono_handle_native_crash
+	0x10d9bcdaf - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : sigabrt_signal_handler
+	0x7fff60335d7d - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/system/libsystem_platform.dylib : _sigtramp
+	0x10de3a0c8 - Unknown
+	0x7fff200fbcb5 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/system/libsystem_c.dylib : abort
+	0x10dbad086 - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : xamarin_unhandled_exception_handler
+	0x10da6be85 - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : mono_invoke_unhandled_exception_hook
+	0x10d9b1e63 - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : mono_handle_exception_internal
+	0x10d9b0389 - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : mono_handle_exception
+	0x10d9327a0 - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : mono_amd64_throw_exception
+	0x10df565b0 - Unknown
+	0x10dbacc8f - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : xamarin_process_managed_exception
+	0x10dbb2ced - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : xamarin_invoke_trampoline
+	0x10dbb5446 - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : xamarin_arch_trampoline
+	0x10dbb5e46 - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : xamarin_x86_64_common_trampoline
+	0x7fff23f806a9 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIViewController _sendViewDidLoadWithAppearanceProxyObjectTaggingEnabled]
+	0x7fff23f8504c - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIViewController loadViewIfRequired]
+	0x7fff23eba03a - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UINavigationController _updateScrollViewFromViewController:toViewController:]
+	0x7fff23eba326 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UINavigationController _startTransition:fromViewController:toViewController:]
+	0x7fff23ebb3b8 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UINavigationController _startDeferredTransitionIfNeeded:]
+	0x7fff23ebc734 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UINavigationController __viewWillLayoutSubviews]
+	0x7fff23e9d04c - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UILayoutContainerView layoutSubviews]
+	0x7fff24c18c90 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIView(CALayerDelegate) layoutSublayersOfLayer:]
+	0x7fff27a055b8 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/QuartzCore.framework/QuartzCore : -[CALayer layoutSublayers]
+	0x7fff27a0be3f - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/QuartzCore.framework/QuartzCore : _ZN2CA5Layer16layout_if_neededEPNS_11TransactionE
+	0x7fff27a17c53 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/QuartzCore.framework/QuartzCore : _ZN2CA5Layer28layout_and_display_if_neededEPNS_11TransactionE
+	0x7fff27951f26 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/QuartzCore.framework/QuartzCore : _ZN2CA7Context18commit_transactionEPNS_11TransactionEdPd
+	0x7fff279893b9 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/QuartzCore.framework/QuartzCore : _ZN2CA11Transaction6commitEv
+	0x7fff246debb8 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : __34-[UIApplication _firstCommitBlock]_block_invoke_2
+	0x7fff20390c74 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__
+	0x7fff20390070 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : __CFRunLoopDoBlocks
+	0x7fff2038aa08 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : __CFRunLoopRun
+	0x7fff2038a1a7 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : CFRunLoopRunSpecific
+	0x7fff2b874d85 - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices : GSEventRunModal
+	0x7fff246c14df - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIApplication _run]
+	0x7fff246c639c - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : UIApplicationMain
+	0x10f7b68c4 - Unknown
+	0x10f7b644b - Unknown
+	0x10d9c7415 - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : mono_jit_runtime_invoke
+	0x10dade9b8 - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : mono_runtime_invoke_checked
+	0x10dae3ea5 - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : mono_runtime_exec_main_checked
+	0x10d9322bc - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : mono_jit_exec
+	0x10dbb531a - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : xamarin_main
+	0x10d909fe7 - /Users/oll/Library/Developer/CoreSimulator/Devices/1BDA976B-F353-446F-A620-950A242FEB62/data/Containers/Bundle/Application/9CD4F9EF-1525-46D5-BC36-09F4FDE6341C/IF2.iOS.app/IF2.iOS : main
+	0x7fff2025abbd - /Users/oll/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/system/libdyld.dylib : start
+	0x1 - Unknown
+
+=================================================================
+	Basic Fault Address Reporting
+=================================================================
+Memory around native instruction pointer (0x7fff6030991e):0x7fff6030990e  ff ff c3 90 90 90 b8 48 01 00 02 49 89 ca 0f 05  .......H...I....
+0x7fff6030991e  73 08 48 89 c7 e9 a1 a1 ff ff c3 90 90 90 b8 53  s.H............S
+0x7fff6030992e  00 00 02 49 89 ca 0f 05 73 08 48 89 c7 e9 89 a1  ...I....s.H.....
+0x7fff6030993e  ff ff c3 90 90 90 b8 83 01 00 02 49 89 ca 0f 05  ...........I....
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================

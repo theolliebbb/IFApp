@@ -10,6 +10,12 @@
     
         https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
     -->
+     <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid><Label Text="Menu" FontSize="Large" TextColor="White" BackgroundColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontFamily="Raj"/></Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
 
     <Shell.Resources>
         <ResourceDictionary>
@@ -41,7 +47,7 @@
                             <VisualState x:Name="Normal">
                                 <VisualState.Setters>
                                     <Setter Property="BackgroundColor" Value="{x:OnPlatform UWP=Transparent, iOS=White}" />
-                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{StaticResource Primary}" />
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="DarkGray" />
                                 </VisualState.Setters>
                             </VisualState>
                             <VisualState x:Name="Selected">
@@ -63,7 +69,7 @@
                         <VisualStateGroup x:Name="CommonStates">
                             <VisualState x:Name="Normal">
                                 <VisualState.Setters>
-                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{StaticResource Primary}" />
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="Black" />
                                 </VisualState.Setters>
                             </VisualState>
                         </VisualStateGroup>
@@ -78,10 +84,10 @@
         FlyoutDisplayOptions="AsMultipleItems" will create a separate flyout item for each child element    
         https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
     -->
-    <FlyoutItem Title="Live Schedule">
+    <FlyoutItem Title="Live Schedule" Icon="logob.png" >
         <ShellContent Route="LivePage" ContentTemplate="{DataTemplate local:LivePage}" />
     </FlyoutItem>
-    <FlyoutItem Title="Twitter">
+    <FlyoutItem Title="Twitter" Icon="logob.png">
         <ShellContent Route="Twitter" ContentTemplate="{DataTemplate local:Twitter}" />
     </FlyoutItem>
 
@@ -96,61 +102,40 @@
     -->
 
 
-    <!-- Optional Templates 
-    // These may be provided inline as below or as separate classes.
 
-    // This header appears at the top of the Flyout.
-    // https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#flyout-header
-    <Shell.FlyoutHeaderTemplate>
-        <DataTemplate>
-            <Grid>ContentHere</Grid>
-        </DataTemplate>
-    </Shell.FlyoutHeaderTemplate>
 
-    // ItemTemplate is for ShellItems as displayed in a Flyout
-    // https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#define-flyoutitem-appearance
-    <Shell.ItemTemplate>
-        <DataTemplate>
-            <ContentView>
-                Bindable Properties: Title, Icon
-            </ContentView>
-        </DataTemplate>
-    </Shell.ItemTemplate>
-
-    // MenuItemTemplate is for MenuItems as displayed in a Flyout
-    // https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#define-menuitem-appearance
-    <Shell.MenuItemTemplate>
-        <DataTemplate>
-            <ContentView>
-                Bindable Properties: Text, Icon
-            </ContentView>
-        </DataTemplate>
-    </Shell.MenuItemTemplate>
-
-    -->
     <MenuItem Text="Homepage"
+              
               Clicked="MenuItem_Clicked"
               ClassId="https://www.illusion-force.com"
+              Icon="logob.png"
               />
     <MenuItem Text="About"
               Clicked="MenuItem_Clicked"
               ClassId="https://www.illusion-force.com/about"
+              Icon="logob.png"
               />
     <MenuItem Text="Media"
               Clicked="MenuItem_Clicked"
               ClassId="https://www.illusion-force.com/media"
+              Icon="logob.png"
               />
     <MenuItem Text="Biography"
               Clicked="MenuItem_Clicked"
               ClassId="https://www.illusion-force.com/biography"
+              Icon="logob.png"
               />
     <MenuItem Text="Discography"
               Clicked="MenuItem_Clicked"
               ClassId="https://www.illusion-force.com/discography"
+              Icon="logob.png"
               />
     <MenuItem Text="Contact"
               Clicked="MenuItem_Clicked"
               ClassId="https://www.illusion-force.com/contact"
+              Icon="logob.png"
               /> 
+    
 
+   
 </Shell>

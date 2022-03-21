@@ -27,5 +27,36 @@
 			<string>/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Release/actool/partial-info.plist</string>
 		</array>
 	</dict>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][watch][][appLauncher][][2x][][][2d][(null)]</string>
+				<string>./AppIcon.appiconset/[][watch][][notificationCenter][][2x][][][2d][(null)]</string>
+				<string>./AppIcon.appiconset/[][watch][][quickLook][][2x][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Release/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The app icon set "AppIcon" has 4 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][watch][][appLauncher][][2x][][][2d][(null)]</string>
+				<string>./AppIcon.appiconset/[][watch][][notificationCenter][][2x][][][2d][(null)]</string>
+				<string>./AppIcon.appiconset/[][watch][][quickLook][][2x][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/oll/Projects/IF2/IF2.iOS/obj/iPhoneSimulator/Release/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The app icon set "AppIcon" has 4 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+	</array>
 </dict>
 </plist>
