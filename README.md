@@ -6,6 +6,8 @@ App made for the band Illusion Force
 
 -SQLite integration
 
+-ListView generated from a SQLite Database saved locally
+
 -WebView integration
 
 -Animations and effects added
